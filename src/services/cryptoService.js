@@ -22,7 +22,7 @@ export const fetchCryptoPrices = async () => {
 
  const headers = {
 
-   "x-cg-demo-api-key": API_KEY,
+   "x-cg-demo-api-key": process.env.COINGECKO_API_KEY,
 
  };
 
