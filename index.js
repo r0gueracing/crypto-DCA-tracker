@@ -32,7 +32,7 @@ app.get("/", async (req, res) => {
 
 // Schedule the task to run every min
 
-cron.schedule('* * * * *', async () => {
+cron.schedule('*/10 * * * *', async () => {
 
  try {
 
